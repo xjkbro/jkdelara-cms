@@ -29,3 +29,8 @@ This example deploys self-hosted version of [Strapi](https://strapi.io/). Intern
 
 - After your app is deployed, visit the `/admin` endpoint to create your admin user.
 - Railway's filesystem is ephemeral which is why any changes to the filesystem are not persisted between deploys. This is why, this example uses Cloudinary for storage.
+
+
+## 💪 References
+
+- Set up guide for Railway and Stripe[Dev.to Blog Post](https://dev.to/hwlkdev/hosting-free-strapi-cms-on-railway-building-personal-blog-website-part-1-1epe?comments_sort=latest#toggle-comments-sort-dropdown)
