@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences",
+  "info": {
+    "singularName": "experience",
+    "pluralName": "experiences",
+    "displayName": "Experience"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "Summary": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "Started": {
+      "type": "date",
+      "required": true
+    },
+    "Ended": {
+      "type": "date"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "selections.links"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

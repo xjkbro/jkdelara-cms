@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.3",
+    "@strapi/plugin-color-picker": "^4.6.1",
     "@strapi/plugin-graphql": "^4.6.1",
     "@strapi/plugin-i18n": "4.5.5",
     "@strapi/plugin-users-permissions": "4.5.5",
@@ -18,7 +20,9 @@
     "@strapi/strapi": "4.5.5",
     "better-sqlite3": "^8.1.0",
     "pg": "8.8.0",
-    "strapi-plugin-oembed": "^1.0.1"
+    "strapi-plugin-multi-select": "^1.1.0",
+    "strapi-plugin-oembed": "^1.0.1",
+    "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {
     "name": "A Strapi developer"
