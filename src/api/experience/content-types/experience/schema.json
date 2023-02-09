@@ -4,7 +4,8 @@
   "info": {
     "singularName": "experience",
     "pluralName": "experiences",
-    "displayName": "Experience"
+    "displayName": "Experience",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,21 +20,21 @@
       "type": "uid",
       "targetField": "name"
     },
-    "Summary": {
+    "summary": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "customField",
       "options": {
         "preset": "toolbar"
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
-    "Started": {
+    "started": {
       "type": "date",
       "required": true
     },
-    "Ended": {
+    "ended": {
       "type": "date"
     },
     "links": {
